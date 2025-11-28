@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Konfiguracja MultiSport",
+                "description": "Aby śledzić szczegóły karty MultiSport, wprowadź swoją nazwę użytkownika i hasło MultiSport.",
+                "data": {
+                    "username": "Nazwa użytkownika",
+                    "password": "Hasło"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Nie udało się połączyć z MultiSport. Sprawdź nazwę użytkownika i hasło.",
+            "unknown": "Wystąpił nieoczekiwany błąd."
+        },
+        "abort": {
+            "already_configured": "To konto MultiSport jest już skonfigurowane."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "remaining_visits": {
+                "name": "Pozostałe wejścia w tym miesiącu"
+            },
+            "last_visit": {
+                "name": "Ostatnia wizyta"
+            },
+            "last_updated": {
+                "name": "Ostatnia aktualizacja"
+            }
+        },
+        "binary_sensor": {
+            "used_today": {
+                "name": "Wykorzystano dzisiaj"
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+# Describes the services for the MultiSport integration.
+force_update:
+  name: Force Update
+  description: Forces an immediate update of all MultiSport card data.

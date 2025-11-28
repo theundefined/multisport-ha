@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "MultiSport Setup",
+                "description": "To track your MultiSport card details, please enter your MultiSport username and password.",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to MultiSport. Please check your username and password.",
+            "unknown": "An unexpected error occurred."
+        },
+        "abort": {
+            "already_configured": "This MultiSport account is already configured."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "remaining_visits": {
+                "name": "Remaining Visits this Month"
+            },
+            "last_visit": {
+                "name": "Last Visit"
+            },
+            "last_updated": {
+                "name": "Last Updated"
+            }
+        },
+        "binary_sensor": {
+            "used_today": {
+                "name": "Used Today"
+            }
+        }
+    }
+}
