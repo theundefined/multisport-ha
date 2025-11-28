@@ -27,3 +27,4 @@ custom_components/*/translations/*.json.pickle
 *.tmp
 *.bak
 *~
+build
