@@ -1,4 +1,47 @@
+[Read in English](#english-version)
+
+# Integracja MultiSport z Home Assistant
+
+To jest niestandardowy komponent dla Home Assistant do integracji z platformą MultiSport.
+
+## Funkcje
+
+- Wyświetlanie pozostałych wizyt dla Twojej karty MultiSport.
+- Wyświetlanie historii wejść na kartę.
+- Wyświetlanie informacji o powiązanych kartach i użytkownikach.
+
+## Instalacja
+
+Ta integracja może być zainstalowana przez HACS (Home Assistant Community Store).
+
+### Instalacja przez HACS
+
+1.  Otwórz HACS w interfejsie Home Assistant.
+2.  Przejdź do "Integrations".
+3.  Kliknij trzy kropki w prawym górnym rogu i wybierz "Custom repositories".
+4.  Dodaj ten adres URL repozytorium (`https://github.com/TheUndefined/multisport-ha`) jako typ "Integration".
+5.  Wyszukaj "MultiSport" w HACS i zainstaluj.
+6.  Zrestartuj Home Assistant.
+7.  Przejdź do "Configuration" -> "Integrations" -> "Add Integration" i wyszukaj "MultiSport".
+
+## Konfiguracja
+
+Integracja wymaga nazwy użytkownika i hasła do MultiSport.
+
+## Wsparcie
+
+Jeśli masz jakiekolwiek problemy, otwórz zgłoszenie w repozytorium GitHub.
+
+## Licencja
+
+Ten projekt jest objęty licencją MIT.
+
+---
+
 # MultiSport Home Assistant Integration
+
+<a name="english-version"></a>
+[Przeczytaj po polsku](#)
 
 This is a custom component for Home Assistant to integrate with the MultiSport platform.
 
