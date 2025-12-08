@@ -7,5 +7,5 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/TheUndefined/multisport-ha/issues",
   "requirements": ["multisport-py>=0.1.1"],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
