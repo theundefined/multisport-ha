@@ -1,6 +1,7 @@
 """Constants for the MultiSport integration."""
 
 from datetime import timedelta
+
 from homeassistant.const import Platform
 
 DOMAIN = "multisport"

@@ -5,7 +5,6 @@ from __future__ import annotations
 import logging
 
 from homeassistant.core import HomeAssistant
-
 from multisport_py import (
     AuthenticationError,
     MultisportClient,

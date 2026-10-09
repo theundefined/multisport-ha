@@ -28,3 +28,7 @@ warn_return_any = true
 warn_unused_configs = true
 ignore_missing_imports = true
 exclude = ["tests", "build"]
+
+[tool.ruff.lint]
+# Pin the rule set so new ruff releases don't change what CI checks.
+select = ["E4", "E7", "E9", "F", "I"]

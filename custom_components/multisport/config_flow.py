@@ -7,10 +7,9 @@ from typing import Any
 
 import voluptuous as vol
 from homeassistant import config_entries
-from homeassistant.const import CONF_USERNAME, CONF_PASSWORD
-from homeassistant.core import HomeAssistant
-from homeassistant.core import callback
 from homeassistant.config_entries import ConfigFlowResult
+from homeassistant.const import CONF_PASSWORD, CONF_USERNAME
+from homeassistant.core import HomeAssistant, callback
 from homeassistant.exceptions import HomeAssistantError
 
 from .api import MultisportApi

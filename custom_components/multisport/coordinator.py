@@ -9,10 +9,10 @@ from typing import Any, Dict, List
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
-
-from .const import DOMAIN
 from homeassistant.util import dt as dt_util
 from multisport_py import AuthenticationError, MultisportClient, MultisportError
+
+from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
